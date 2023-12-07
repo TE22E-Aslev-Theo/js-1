@@ -1,0 +1,56 @@
+.calculator{
+
+    border: 0px solid rgb(70, 70, 70);
+    border-radius: 7px;
+    background-color: rgb(70, 70, 70); 
+    max-width: 15%;
+    display: block;
+    top: 50%;
+    right: 50%;
+}
+
+.numberpad{
+
+    
+    display: grid;
+    grid-template-rows:4fr 4fr 4fr;
+    grid-template-columns: 4fr 4fr 4fr;
+    max-width: 100%;
+    
+}
+
+.numberpad>*{
+
+    border-radius: 5px;
+    border: 2px solid white;
+    margin: 5%;
+    width: 90%;
+    font-size: x-large;
+}
+
+
+
+#l1{
+
+    display: block;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: x-large;
+    
+    height: 2rem;
+}
+
+.numberpad>*:hover{
+
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+
+}
+
+.numberpad>*:active{
+
+    background-color: grey;
+    border: 2px solid grey;
+}
+
